@@ -4,7 +4,7 @@ var router = express.Router();
 
 router.get('/', (req, res)=> {
     const date = new Date();
-    res.json({date: date.getUTCFullYear()});
+    res.json({year: '{date.getUTCFullYear()}'});
 });
 
 
